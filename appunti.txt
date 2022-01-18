@@ -1,3 +1,15 @@
+git:
+git add appunti.txt
+git status -> ci dirà che deve essere fatto un commit
+git commit -m "Prima versione file"
+git status ci dirà che tutto è a posto
+git log
+facciamo delle modifiche e digitiamo git diff le modifiche compariranno in verde
+git diff
+
+
+
+
 android:
 Sie è passati da onSaveinstance onRestoreInstance a-> ModelView dove tutti i dati che non devono variare rimangono all internno della classe con
 estensione ModelView
