@@ -6,6 +6,9 @@ git status ci dirà che tutto è a posto
 git log
 facciamo delle modifiche e digitiamo git diff le modifiche compariranno in verde
 git diff
+git . aggiunge tutti i file della directory
+git add file1.txt file3.txt file4.txt aggiunge i file uno per uno
+git log --oneline esamina tutte le operazioni fatte
 
 
 
