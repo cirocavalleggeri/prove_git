@@ -9,8 +9,18 @@ git diff
 git . aggiunge tutti i file della directory
 git add file1.txt file3.txt file4.txt aggiunge i file uno per uno
 git log --oneline esamina tutte le operazioni fatte in maniera succinta e comoda
-git commit am "unico comando aggiunge tutti i file e li spedisce"
+git commit -am "unico comando aggiunge tutti i file e li spedisce"
 
+NAVIGARE TRA I COMMIT !!!
+Bastano le prime sette cifre dello sha1 del commit che sono ben evidenziate nel comando git log --oneline
+
+$ git log --oneline
+3fab71f (HEAD -> master) quarta versione succinta
+e772f21 Terza versione
+d3c5823 Seconda versione file
+368d65c Prima versione file
+
+git checkout 368d65c torna alla prima versione
 
 
 
