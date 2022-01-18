@@ -1,4 +1,4 @@
-git:
+git: gitVitz è molto utile per spostarsi nei branch
 git add appunti.txt
 git status -> ci dirà che deve essere fatto un commit
 git commit -m "Prima versione file"
@@ -21,6 +21,8 @@ d3c5823 Seconda versione file
 368d65c Prima versione file
 
 git checkout 368d65c torna alla prima versione
+git checkout master torna all ultima versione
+
 
 
 
