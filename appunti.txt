@@ -1,0 +1,3 @@
+android:
+Sie è passati da onSaveinstance onRestoreInstance a-> ModelView dove tutti i dati che non devono variare rimangono all internno della classe con
+estensione ModelView
