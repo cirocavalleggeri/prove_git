@@ -8,7 +8,8 @@ facciamo delle modifiche e digitiamo git diff le modifiche compariranno in verde
 git diff
 git . aggiunge tutti i file della directory
 git add file1.txt file3.txt file4.txt aggiunge i file uno per uno
-git log --oneline esamina tutte le operazioni fatte
+git log --oneline esamina tutte le operazioni fatte in maniera succinta e comoda
+git commit am "unico comando aggiunge tutti i file e li spedisce"
 
 
 
