@@ -63,7 +63,16 @@ git push -u origin main
 se ci dovessero problemi ->git remote rm origin e ripetere da capo i comandi
 git branch -M main
 git push --set-upstream origin main
-LAVORARE IN TEAM
+LAVORARE IN GRUPPO
+QUANDO LAVORIAMO IN GRUPPO UN MEMBROB HA CLOANTO IL NOSTRO PROGETTO E APPORTATO MODIFICHE
+QUANDO ANDREMO A FARE IL PUSH OTTERREMO UN ERRORE
+per eliminare una versione di commit lanciata facciamo come al solito
+git log --oneline
+e poi
+ git reset --hard <sha1-commit-id>
+eliminato il conflitto
+git fetch
+git merge origin/main
 
 
 
