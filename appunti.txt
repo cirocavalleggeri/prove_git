@@ -56,7 +56,12 @@ con
  git cat-file -p prime sette cifre dell' oggetto tree otteniamo il nome del file modificato
 con
  git cat-file -p prime sette cifre del file otteniamo il contenuto
-
+MANDIAMO TUTTO SU SERVER
+git remote add origin https://github.com/cirocavalleggeri/prove_git.git
+git branch -M main
+git push -u origin main
+se ci dovessero problemi ->git remote rm origin e ripetere da capo i comandi
+git push -u origin main
 
 
 
