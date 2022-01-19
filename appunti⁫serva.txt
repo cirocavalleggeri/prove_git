@@ -1,4 +1,4 @@
-git: gitVitz è molto utile per spostarsi nei branch
+git:
 git add appunti.txt
 git status -> ci dirà che deve essere fatto un commit
 git commit -m "Prima versione file"
@@ -20,23 +20,7 @@ e772f21 Terza versione
 d3c5823 Seconda versione file
 368d65c Prima versione file
 
-git checkout 368d65c torna alla prima versione
-git checkout master torna all ultima versione
-
-AGGIUNGIAMO L'UTENTE !!
-git config --global user.name "cirocavalleggeri"
-git config --global user.email "ciroallinone@gmail.com"
-
-LAVORIAMO IN TEAM AGGIUNGIAMO UN BRACCIO SU CUI LAVORARE DA SOLI E SE FUNZIONA AGGIUNGERLO AL MASTER
-
-La prima cosa da fare è registrare il proprio nome utente e la propria email
-
-git branch esperimenti
- e spostiamoci su l braccio esperimenti
-facciamo un git status
-per vedere lo status
-e lavoriamo su un altro file
-git checkout esperimenti
+Questo file è lavorato sul braccio esperimenti
 
 
 android:
