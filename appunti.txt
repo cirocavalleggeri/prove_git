@@ -37,6 +37,8 @@ facciamo un git status
 per vedere lo status
 e lavoriamo su un altro file
 git checkout esperimenti
+lavoriamo in questo braccio e se tutto è andato bene possiamo fondere i due lavori con
+git checkout master
 
 
 android:

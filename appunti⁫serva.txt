@@ -22,6 +22,7 @@ d3c5823 Seconda versione file
 
 Questo file è lavorato sul braccio esperimenti
 
+eseguiamo gitviz per avere uno schema visivo della situazione
 
 android:
 Sie è passati da onSaveinstance onRestoreInstance a-> ModelView dove tutti i dati che non devono variare rimangono all internno della classe con
