@@ -47,6 +47,18 @@ potevamo inoltre fondere il master ad esperimenti con
 git merge master 
 ESPLORIAMO LA CARTELLA .git
 aggiungiamo una parola nuova e facciamo il commit
+ git commit  -am "aggiunto la parola nuova"
+
+facciamo un git log --oneline e andiamo a vedere il file modificato nella cartella .git corrispondente al file che ha le prime  7 cifre dopo la cartella object
+ git cat-file -t c9abecf
+otteniamo commit
+con 
+ git cat-file -p prime sette cifre dell' oggetto tree otteniamo il nome del file modificato
+con
+ git cat-file -p prime sette cifre del file otteniamo il contenuto
+
+
+
 
 
 
