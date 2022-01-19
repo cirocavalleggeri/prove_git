@@ -63,6 +63,7 @@ git push -u origin main
 se ci dovessero problemi ->git remote rm origin e ripetere da capo i comandi
 git branch -M main
 git push --set-upstream origin main
+LAVORARE IN TEAM
 
 
 
