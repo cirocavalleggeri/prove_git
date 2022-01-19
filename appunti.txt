@@ -39,6 +39,11 @@ e lavoriamo su un altro file
 git checkout esperimenti
 lavoriamo in questo braccio e se tutto è andato bene possiamo fondere i due lavori con
 git checkout master
+ma... nel momento in cui lo facciamo vedremo perso tutto il nostro lavoro fino a che...non faremo un merge con il braccio
+git merge esperimenti
+ovviamente supponiamo che il lavoro nel braccio non andava bene allora toccava cancellarlo anteponendo -d davanti al nome del braccio
+git -d esperimenti
+
 
 
 android:
