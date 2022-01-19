@@ -42,7 +42,12 @@ git checkout master
 ma... nel momento in cui lo facciamo vedremo perso tutto il nostro lavoro fino a che...non faremo un merge con il braccio
 git merge esperimenti
 ovviamente supponiamo che il lavoro nel braccio non andava bene allora toccava cancellarlo anteponendo -d davanti al nome del braccio
-git -d esperimenti
+git branch -d esperimenti
+potevamo inoltre fondere il master ad esperimenti con
+git merge master 
+ESPLORIAMO LA CARTELLA .git
+aggiungiamo una parola nuova e facciamo il commit
+
 
 
 
