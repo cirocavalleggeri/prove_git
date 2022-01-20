@@ -11,3 +11,4 @@ public Bitmap replaceColor(Bitmap src) {
     }
     return Bitmap.createBitmap(pixels, width, height, Bitmap.Config.ARGB_8888);
 }
+answered Jan 19 '20 at 19:50->https://stackoverflow.com/questions/29090880/convert-white-color-to-transparent-on-bitmap-in-android
