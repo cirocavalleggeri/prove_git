@@ -75,7 +75,7 @@ git fetch
 git merge origin/main
 LAVORARE SU UN BRACCIO SEPARATO
 è possibile fare la push su un braccio separato senza dover fare push sul MASTER
-push --set -upstream origin secondobraccio
+push --set -upstream -origin secondobraccio
 
 
 
