@@ -86,6 +86,7 @@ modifichiamo il progetto
 spieghiamo con il commit le modifiche
 git commit -am "modifiche effettuate"
 git push --set -upstream -origin  bracciolavoroprogetto
+andiamo su github e facciamo una PULL REQUEST 
 a questo punto spetterà all'autore approvare o rifiutare le modifiche e volendo cancellare il ramo bracciolavoroprogetto
 
 
