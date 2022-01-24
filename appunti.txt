@@ -77,6 +77,18 @@ LAVORARE SU UN BRACCIO SEPARATO
 è possibile fare la push su un braccio separato senza dover fare push sul MASTER
 push --set -upstream -origin secondobraccio
 
+PROPONIAMO UNA MODIFICA A UN PROGETTO CHE NON è NOSTRO PULL REQUEST
+modifichiamo un progetto su github non nostro.clicchiamo sul pulsante fork
+cloniamo il progetto con git clone
+creiamo un braccio di lavoro git branch bracciolavoroprogetto
+spostiamoci sul braccio git chekout bracciolavoroprogetto
+modifichiamo il progetto
+spieghiamo con il commit le modifiche
+git commit -am "modifiche effettuate"
+git push --set -upstream -origin  bracciolavoroprogetto
+a questo punto spetterà all'autore approvare o rifiutare le modifiche e volendo cancellare il ramo bracciolavoroprogetto
+
+
 
 
 
