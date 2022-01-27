@@ -1,0 +1,14 @@
+
+
+quando è la prima volta
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+Press Enter to create your local clone.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+Quando già esiste
+git init
+git remote add origin https://github.com/xxx/yyy.git
+git add .
+git commit -m "first commit"
+git push -u origin master
